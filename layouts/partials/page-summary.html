@@ -1,7 +1,7 @@
 <article itemscope itemtype="http://schema.org/CreativeWork">
   <header>
     <h2 itemprop="name">
-			{{ .Title }} on  <code>{{ dateFormat "02 Jan, 2006" (default .Date (.PublishDate)) }}</code>
+			{{ .Title }} | <code>{{ dateFormat "02 Jan, 2006" (default .Date (.PublishDate)) }}</code> <time dateTime="{{ .ReadingTime }}M">({{ .ReadingTime }} min)</time>
     </h2>
     {{ if eq .Type "post" }}
       <p class="muted">{{ partial "post/meta.html" . }}</p>

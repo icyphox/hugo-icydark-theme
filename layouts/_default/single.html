@@ -6,7 +6,9 @@
 {{ end }}
 {{ define "main" }}
   <header>
-    <h1>{{ .Title }}</h1>
+		  <h1>{{ .Title }} | <code>{{ dateFormat "02 Jan, 2006" (default .Date (.PublishDate)) }}</code> <time dateTime="{{ .ReadingTime }}M">({{ .ReadingTime }} min)</time>
+  </time>
+</h1>
   </header>
   {{ .Content }}
 {{ end }}
