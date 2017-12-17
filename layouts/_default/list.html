@@ -2,9 +2,10 @@
   {{ partial "menu.html" . }}
 {{ end }}
 {{ define "main" }}
-  <header>
+<!--  <header>
     <h1>{{ .Title }}</h1>
-  </header>
+</header>-->
+<br>
   {{ range .Paginator.Pages }}
     {{ partial "page-summary.html" . }}
   {{ end }}

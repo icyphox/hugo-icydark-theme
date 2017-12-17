@@ -11,5 +11,7 @@
   {{ .Content }}
 {{ end }}
 {{ define "footer" }}
-  {{ partial "powered-by.html" . }}
+
+<code><font size="4"> EOF </font></code>
+  {{ partial "post/byline.html" . }}
 {{ end }}
