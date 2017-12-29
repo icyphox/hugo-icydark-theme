@@ -835,8 +835,8 @@ select.form-control {
 }
 
 .menu .menu-item.active, .menu .menu-item:hover {
-	color: #222;
-	border-color: #222;
+	color: #021012;
+	border-color: #021012;
 	background-color: transparent
 }
 
@@ -872,7 +872,7 @@ select.form-control {
 }
 
 .dark, .dark pre {
-	background-color: #222
+	background-color: #021012
 }
 
 .dark pre {
@@ -914,7 +914,7 @@ select.form-control {
 }
 
 .dark .form-group.form-textarea label:after {
-	background-color: #222
+	background-color: #021012
 }
 
 .dark .form-control {
