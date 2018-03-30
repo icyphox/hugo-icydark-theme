@@ -1,5 +1,5 @@
 html {
-	font-size: 12px
+	font-size: 16px
 }
 
 * {
@@ -16,8 +16,8 @@ html {
 }
 
 body {
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
 	margin: 0;
 	font-family: 'le_font',  monospace;
 	word-wrap: break-word
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .hack, .hack blockquote, .hack code, .hack em, .hack h1, .hack h2, .hack h3, .hack h4, .hack h5, .hack h6, .hack strong {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-style: normal;
 	font-family: 'le_font', monospace; 
 }
@@ -403,7 +403,7 @@ p {
 	color: gray;
 	content: attr(data-filled);
 	display: block;
-	font-size: 12px;
+	font-size: 14px;
 	white-space: nowrap;
 	position: absolute;
 	border: 6px solid transparent;
@@ -532,7 +532,7 @@ select.form-control {
 	cursor: pointer;
 	outline: none;
 	padding: .65rem 2rem;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
